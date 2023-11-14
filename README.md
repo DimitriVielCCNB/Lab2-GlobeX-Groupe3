@@ -1,3 +1,65 @@
+Objectifs du Site :
+Le projet consiste à développer le site web pour l'entreprise fictive "Globex Corporation", dont le but principal est de promouvoir et vendre une vaste gamme de produits ;
+
+
+ => Ces éléments forment une base pour la création de site web qui répond aux besoins et aux spécifications du client fictif, Globex Corporation ;
+
+- Consommateurs & Public Cible : ...........
+
+- Contenu : .............., 
+
+- Logo, type Texte et Images : Pas spécifiés, 
+
+- Mots-Clés pour les Moteurs de Recherche : Pas spécifiés, 
+
+- Style Graphique (Couleurs/Motifs.. ) : Pas spécifiés, 
+
+- Autres Détails : Pas spécifiés, 
+
+- Langues : Pas spécifiés,  (Toutes les langues).
+
+=> Répartition des Tâches par Page de Création ;
+            Page 1 et 2 : .....
+            Page 3 et 4 : .....
+            Page 5 et 6 : .....
+            Page 7 et 8 : .....
+            Page 9 et 10 : .....
+
+Interaction avec les Clients : Faciliter l'interaction avec les clients par le biais d'appels, d'emails, de formulaires de contact, et d'adhésion à une liste de diffusion.
+
+Structure du Site (Pages) :
+        Accueil : Présentation bienveillante de la compagnie, etc ......
+
+        Maison : Section dédiée à l'achat de maisons et d'articles d'intérieur.
+
+        Extérieur : Offre des produits pour les besoins extérieurs des consommateurs, y compris des animaux de compagnie inhabituels.( avec sous-pages )
+
+        Sport : Équipement sportif et accessoires pour différents sports.( avec sous-pages )
+
+        Bien Radioactifs : Une section spéciale, probablement humoristique ou faisant référence à quelque chose d'unique.
+
+        Bien Commerciaux : Produits destinés aux entreprises.
+
+        Biens pour Envahir le Monde : Peut-être une section humoristique liée à l'ambition mondiale de l'entreprise.
+
+        Contactez-nous : Information de contact pour les clients.
+
+        Mailling List : Inscription pour recevoir des catalogues réguliers.
+
+Caractéristiques Techniques : ....
+
+Adaptabilité : Le site doit être consultable sur n'importe quel appareil.
+
+Commerce Électronique : Intégration du commerce électronique avec un système informatique interne.
+
+Base de Données : Pas spécifiés.
+
+Détails Financiers , Budget : 12 000,00 $.
+
+
+
+
+
 # Lab2-GlobeX
 GlobeX wants a nice website and is going to us to design it
 
