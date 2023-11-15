@@ -82,11 +82,12 @@ aside {
 
 .menu a {
     text-decoration: none;
+    color: rgb(229, 129, 23);
     margin: 0 10px;
 }
 
 .menu a:hover {
-    color: rgb(250, 245, 245);
+    color: rgb(229, 129, 23);
 }
 
 section {
@@ -243,6 +244,7 @@ footer {
 /* Styles supplémentaires pour votre footer (couleurs, tailles, etc.) */
 
 
+<<<<<<< HEAD
 
 
 
@@ -309,3 +311,40 @@ footer {
 .submenu ul li:hover {
     background-color: #e96e10;
 }
+=======
+/* Style pour le menu déroulant */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style pour le bouton du menu déroulant */
+.dropbtn {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Style pour le contenu du menu déroulant */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Style pour les liens dans le menu déroulant */
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* Affichage du contenu du menu déroulant lorsqu'il est survolé */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+>>>>>>> c4bde2dc85caba453264bb55975ef2461a6daf43
