@@ -82,11 +82,12 @@ aside {
 
 .menu a {
     text-decoration: none;
+    color: rgb(229, 129, 23);
     margin: 0 10px;
 }
 
 .menu a:hover {
-    color: rgb(250, 245, 245);
+    color: rgb(229, 129, 23);
 }
 
 section {
