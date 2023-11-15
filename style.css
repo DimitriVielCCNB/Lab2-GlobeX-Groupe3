@@ -1,0 +1,230 @@
+/* Styles généraux */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-image {
+    width: 600px; /* Largeur souhaitée */
+    height: auto; /* Hauteur automatique pour préserver les proportions */
+    margin-right: 20px; /* Espace entre le titre et l'image */
+  }
+  
+
+body {
+    font-family: Arial, sans-serif;
+    
+    background-color: rgb(229, 186, 143); 
+    padding: 0;
+   
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+header {
+    background-color: rgb(255, 255, 254);
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    border: 1px solid white;
+}
+
+#logo {
+    position: absolute;
+    top: 5px; 
+    left: 5px; 
+}
+
+nav ul li a {
+    color: #db7916;
+}
+
+nav ul {
+    background-color: #444;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.item-color:hover {
+    color: rgb(244, 240, 240); 
+}
+
+
+
+aside {
+    font-family: Arial, sans-serif; 
+    font-size: 15px;
+    color: #db7916;
+    width: 25%;
+    height: 690px;
+    background-color: #444;
+    float: left; 
+    border: 1px solid white;
+}
+
+
+
+
+.menu a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.menu a:hover {
+    color: rgb(250, 245, 245);
+}
+
+section {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto; 
+}
+
+
+
+aside ul li {
+    color: #fff;
+}
+
+footer {
+    position: relative;
+    margin-top: 20px; /* Espace entre le contenu et le footer, si nécessaire */
+    clear: both; /* S'assurer que le footer se positionne en dessous des autres éléments */
+    text-align: center; /* Centrer le contenu du footer */
+    padding: 20px 0; /* Ajouter un peu d'espace interne au footer */
+    background-color: #f0f0f0; /* Changer la couleur de fond du footer si besoin */
+    width: 100%; /* Faire en sorte que le footer occupe toute la largeur de la page */
+  }
+  
+  .footer-content {
+    /* Ajoutez des styles supplémentaires au contenu du footer si nécessaire */
+  }
+  
+  
+
+
+#mainNav {
+    background-color: #db7916;
+    width: 100%; 
+    height: 50px; 
+}
+
+#text_one, #text_two, #image_test {
+    text-align: center; 
+    margin: 0 auto; 
+    width: 50%; 
+}
+
+#text_one {
+    color: white;
+}
+
+#text_two {
+    color: rgb(244, 239, 239);
+}
+
+#image_test {
+    width: 150px;
+}
+
+#text_one, #text_two, #image_test {
+    
+    font-family: Arial, sans-serif; 
+    font-size: 18px;
+    text-align: left; 
+    width: 100%;
+    
+    
+
+    
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.product-item {
+    width: calc(33.33% - 20px); 
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%; 
+    max-height: 150px; 
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background-color: #db7734;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-button:hover {
+    background-color: rgb(241, 235, 234);
+}
+
+
+.item-color {
+    background-color: rgb(52, 48, 48);
+    color: rgb(239, 230, 230);
+    padding: 8px; 
+    margin-bottom: 5px; 
+    list-style-type: none; 
+}
+
+.item-color a {
+    color: rgb(246, 241, 241); 
+    text-decoration: none; 
+}
+
+.item-color:hover {
+    background-color: #e96e10;
+}
+
+
+.add-to-basket-button {
+    background-color: #3a3d3a;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.add-to-basket-button:hover {
+    background-color: #45a049;
+}
