@@ -329,6 +329,7 @@ footer {
     background-color: #e96e10;
 }
 
+/************* footer ****** */
 
 footer li{
     display: inline-block;
@@ -338,65 +339,4 @@ footer li{
  
 .icon{
     width: 50px;
-}
-
-
-
-/* Style pour les flèches de navigation */
-/* Styles pour le slider Swiper */
-.swiper-container {
-    max-width: 50%; /* Largeur maximale du slider (ajustez selon vos besoins) */
-    margin: 0 auto; /* Marge automatique pour centrer le slider horizontalement */
-    position: relative; /* Position relative pour positionner les éléments enfants */
-}
-
-.swiper-wrapper {
-    width: 100%; /* Largeur totale de la swiper-wrapper pour contenir les slides */
-    height: auto; /* Hauteur automatique pour s'adapter à la hauteur des slides */
-}
-
-.swiper-slide {
-    text-align: center; /* Centrer le contenu des slides horizontalement */
-}
-
-/* Styles pour la pagination */
-.swiper-pagination {
-    position: absolute; /* Position absolue pour la pagination */
-    bottom: 20px; /* Espacement depuis le bas */
-    left: 50%; /* Centrer horizontalement */
-    transform: translateX(-50%); /* Ajuster pour centrer parfaitement */
-}
-
-/* Styles pour les flèches de navigation */
-.swiper-button-prev,
-.swiper-button-next {
-    width: 40px;
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: #fff;
-}
-
-.swiper-button-prev {
-    left: 10px;
-}
-
-.swiper-button-next {
-    right: 10px;
-}
-
-
-/* Styles pour les images dans le slider Swiper */
-.swiper-slide img {
-    width: 100%; /* Largeur de l'image à 100% de la largeur de son conteneur */
-    height: auto; /* Hauteur automatique pour conserver les proportions de l'image */
-    /* Autres styles selon vos besoins */
 }
