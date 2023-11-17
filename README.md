@@ -20,23 +20,41 @@ Le projet consiste à développer le site web pour l'entreprise fictive "Globex 
 
 => Structure du Site (Pages) : ;
                 ACCUEIL : ../html/home.html
+                
                 MAISON
+                
                       AMEUBLEMENT : ../html/ameublement.html
+                      
                       PRODUITS MENAGER : ../html/produits-menager.html
+                      
                 EXTERIEUR
+                
                       ANNIMEAU DE COMPAGNIE : ../html/annimeau-compagnie.html
+                      
                       CABANE : ../html/cabane.html
+                      
                 APPAREILS D ENTRETIEN : ../html/appareils-entretien.html
+                
                 SPORT
+                
                       SOCCER : ../html/soccer.html
+                      
                       TENIS : ../html/tenis.html
+                      
                       BASKET BALL : ../html/basket-ball.html
+                      
                 BIEN RADIOACTIDS : ../html/bien-radioactids.html
+                
                 BIENS COMMERCIAUX : ../html/biens-commerciaux.html
+                
                 BIEN POUR ENVAHIR LE MONDE : ../html/bien-envahir-monde.html
+                
                 CONTACT US : ../html/contact-us.html
+                
                 MAILING US : ../html/mailing-us.html
+                
                 NOS TRANSPORTEURS : ../html/nos-transporteurs.html
+                
 
 
         Accueil : Présentation bienveillante de la compagnie, etc ......
