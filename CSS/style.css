@@ -293,6 +293,7 @@ footer {
     background-color: #e96e10;
 }
 
+/************* footer ****** */
 
 footer li{
     display: inline-block;
@@ -303,3 +304,74 @@ footer li{
 .icon{
     width: 50px;
 }
+
+
+/***********************page sport**************************/
+
+.section {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.section h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.product-item {
+    float: left;
+    display: flex;
+    align-items: center; /* Cette ligne va centrer l'élément verticalement */
+    justify-content: space-between; /* Cela va espacer les éléments horizontalement */
+}
+
+
+.product-item {
+    width: calc(33.33% - 20px); /* Ajustez en fonction de la largeur de votre design */
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Couleur de fond pour chaque produit */
+    border: 1px solid #ddd; /* Bordure pour séparer visuellement les produits */
+    padding: 10px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-item h2 {
+    color: #db7916; /* Utilisez une couleur de votre charte graphique */
+}
+
+.product-item p {
+    color: #666;
+    font-size: 14px; /* Taille de la police pour les descriptions */
+}
+
+.contact-button {
+    /* Les styles existants du bouton seront appliqués */
+    margin-top: 10px; /* Espacement au-dessus du bouton */
+}
+
+footer li{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+ 
+.icon{
+    width: 50px;
+}
+
+
