@@ -18,15 +18,24 @@ header {
   }
   
 
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Ajustez selon vos besoins pour centrer verticalement */
+}
+
 body {
-    font-family: Arial, sans-serif;
+    
+        width: 100%; /* Largeur de la page */
+        height: 100vh; /* Hauteur de la page (100% de la hauteur de la fenêtre) */
+        margin: 0; /* Supprimer les marges par défaut */
+        padding: 0; /* Supprimer les paddings par défaut */
+        overflow-x: hidden; /* Empêcher le défilement horizontal */
+
     
     background-color: rgb(229, 186, 143); 
-    padding: 0;
-   
-    background-size: 50% auto;
-    background-repeat: no-repeat;
-    background-position: center;
+    
     
 }
 
@@ -113,6 +122,33 @@ footer {
     width: 100%; /* Faire en sorte que le footer occupe toute la largeur de la page */
   }
   
+  /* Style du formulaire d'abonnement à la newsletter */
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.newsletter input[type="email"],
+.newsletter input[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.newsletter input[type="submit"]:hover {
+    background-color: #218838;
+}
   
   
 
@@ -304,74 +340,3 @@ footer li{
 .icon{
     width: 50px;
 }
-
-
-/***********************page sport**************************/
-
-.section {
-    text-align: center;
-    padding: 10px;
-    background-color: #fff;
-}
-
-.section h1 {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-}
-
-.product-item {
-    float: left;
-    display: flex;
-    align-items: center; /* Cette ligne va centrer l'élément verticalement */
-    justify-content: space-between; /* Cela va espacer les éléments horizontalement */
-}
-
-
-.product-item {
-    width: calc(33.33% - 20px); /* Ajustez en fonction de la largeur de votre design */
-    margin: 10px;
-    box-sizing: border-box;
-    background-color: #f9f9f9; /* Couleur de fond pour chaque produit */
-    border: 1px solid #ddd; /* Bordure pour séparer visuellement les produits */
-    padding: 10px;
-}
-
-.product-item img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.product-item h2 {
-    color: #db7916; /* Utilisez une couleur de votre charte graphique */
-}
-
-.product-item p {
-    color: #666;
-    font-size: 14px; /* Taille de la police pour les descriptions */
-}
-
-.contact-button {
-    /* Les styles existants du bouton seront appliqués */
-    margin-top: 10px; /* Espacement au-dessus du bouton */
-}
-
-footer li{
-    display: inline-block;
-    margin: 5px;
-    padding: 10px;
-}
- 
-.icon{
-    width: 50px;
-}
-
-
