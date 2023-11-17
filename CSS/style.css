@@ -82,12 +82,11 @@ aside {
 
 .menu a {
     text-decoration: none;
-    color: rgb(229, 129, 23);
     margin: 0 10px;
 }
 
 .menu a:hover {
-    color: rgb(229, 129, 23);
+    color: rgb(250, 245, 245);
 }
 
 section {
@@ -229,86 +228,3 @@ footer {
 .add-to-basket-button:hover {
     background-color: #45a049;
 }
-
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-column {
-    flex: 1;
-    margin-right: 20px; /* Espace entre les colonnes si nécessaire */
-}
-
-/* Styles supplémentaires pour votre footer (couleurs, tailles, etc.) */
-
-
-
-
-
-/**************************************sous menu*************************************************************/
-
-
-
-#sidebar {
-    width: 200px;
-    height: 100%;
-    background-color: #333;
-    position: fixed;
-    left: 0;
-    top: 0;
-    overflow-y: auto;
-}
-
-#sidebar ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.item-color {
-    padding: 10px;
-    cursor: pointer;
-    position: relative;
-}
-
-.item-color:hover {
-    background-color: #555;
-}
-
-.submenu {
-    display: none;
-    background-color: rgb(52, 48, 48); /* Adaptation pour correspondre à l'arrière-plan des .item-color */
-    position: absolute;
-    top: 0;
-    left: 100%;
-    width: 200px;
-}
-
-.item-color:hover .submenu {
-    display: block;
-}
-
-.submenu ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.submenu ul li {
-    padding: 8px; /* Adaptation pour correspondre au padding des .item-color */
-    margin-bottom: 5px;
-    list-style-type: none;
-}
-
-.submenu ul li a {
-    color: rgb(246, 241, 241);
-    text-decoration: none;
-}
-
-.submenu ul li:hover {
-    background-color: #e96e10;
-}
-
-
