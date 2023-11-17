@@ -18,16 +18,27 @@ Le projet consiste à développer le site web pour l'entreprise fictive "Globex 
 
 - Langues : Pas spécifiés,  (Toutes les langues).
 
-=> Répartition des Tâches par Page de Création ;
-            Page 1 et 2 : .....
-            Page 3 et 4 : .....
-            Page 5 et 6 : .....
-            Page 7 et 8 : .....
-            Page 9 et 10 : .....
+=> Structure du Site (Pages) : ;
+                ACCUEIL : ../html/home.html
+                MAISON
+                      AMEUBLEMENT : ../html/ameublement.html
+                      PRODUITS MENAGER : ../html/produits-menager.html
+                EXTERIEUR
+                      ANNIMEAU DE COMPAGNIE : ../html/annimeau-compagnie.html
+                      CABANE : ../html/cabane.html
+                APPAREILS D ENTRETIEN : ../html/appareils-entretien.html
+                SPORT
+                      SOCCER : ../html/soccer.html
+                      TENIS : ../html/tenis.html
+                      BASKET BALL : ../html/basket-ball.html
+                BIEN RADIOACTIDS : ../html/bien-radioactids.html
+                BIENS COMMERCIAUX : ../html/biens-commerciaux.html
+                BIEN POUR ENVAHIR LE MONDE : ../html/bien-envahir-monde.html
+                CONTACT US : ../html/contact-us.html
+                MAILING US : ../html/mailing-us.html
+                NOS TRANSPORTEURS : ../html/nos-transporteurs.html
 
-Interaction avec les Clients : Faciliter l'interaction avec les clients par le biais d'appels, d'emails, de formulaires de contact, et d'adhésion à une liste de diffusion.
 
-Structure du Site (Pages) :
         Accueil : Présentation bienveillante de la compagnie, etc ......
 
         Maison : Section dédiée à l'achat de maisons et d'articles d'intérieur.
@@ -45,6 +56,8 @@ Structure du Site (Pages) :
         Contactez-nous : Information de contact pour les clients.
 
         Mailling List : Inscription pour recevoir des catalogues réguliers.
+
+Interaction avec les Clients : Faciliter l'interaction avec les clients par le biais d'appels, d'emails, de formulaires de contact, et d'adhésion à une liste de diffusion.
 
 Caractéristiques Techniques : ....
 
