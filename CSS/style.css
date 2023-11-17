@@ -112,9 +112,6 @@ footer {
     width: 100%; /* Faire en sorte que le footer occupe toute la largeur de la page */
   }
   
-  .footer-content {
-    /* Ajoutez des styles supplémentaires au contenu du footer si nécessaire */
-  }
   
   
 
@@ -227,4 +224,81 @@ footer {
 
 .add-to-basket-button:hover {
     background-color: #45a049;
+}
+
+
+/**************************************sous menu*************************************************************/
+ 
+ 
+
+
+ 
+#sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+}
+ 
+#sidebar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ 
+.item-color {
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+ 
+
+ 
+.submenu {
+    display: none;
+    background-color: rgb(52, 48, 48); /* Adaptation pour correspondre à l'arrière-plan des .item-color */
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+}
+ 
+.item-color:hover .submenu {
+    display: block;
+    background-color: rgb(215, 115, 15);
+}
+ 
+.submenu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ 
+.submenu ul li {
+    padding: 8px; /* Adaptation pour correspondre au padding des .item-color */
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+ 
+.submenu ul li a {
+    color: rgb(246, 241, 241);
+    text-decoration: none;
+}
+ 
+.submenu ul li:hover {
+    background-color: #e96e10;
+}
+
+
+footer li{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+ 
+.icon{
+    width: 50px;
 }
