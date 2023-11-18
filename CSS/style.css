@@ -388,3 +388,79 @@ footer li{
   button:hover {
     background-color: #0056b3;
   }
+
+/***********************page sport**************************/
+
+.section {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.section h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrer les éléments */
+    list-style: none;
+    margin: 0 auto ; /* Centrage du conteneur */
+    padding: 10;
+}
+
+.product-item {
+    width: calc(50% - 40px); /* Ajuster pour deux éléments par ligne avec une marge de 20px de chaque côté */
+    margin: 20px; /* Espacement entre les produits */
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.product-item img {
+    max-width: 30%; /* Ajuster la largeur de l'image */
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 15px; /* Ajuster l'espacement sous l'image */
+}
+
+.contact-button {
+    margin-top: 10px; /* Espacement au-dessus du bouton */
+}
+
+
+/* Style du formulaire d'abonnement à la newsletter */
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.newsletter input[type="email"],
+.newsletter input[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.newsletter input[type="submit"]:hover {
+    background-color: #218838;
+}
+  
+
