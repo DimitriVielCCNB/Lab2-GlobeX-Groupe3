@@ -68,38 +68,26 @@
 
 <main>
 
-        <section class="section">
-            <h1>Liste Products</h1>
-            <article class="product-item">
-                <img src="../images/logo.png" alt="">
-                <h2>Product_1</h2>
-                <p>Description_Product_1</p>
-                <p>Prix: .... €</p>
-                <button class="contact-button"  onclick="window.location.href='mailto:commande@votreboutique.com'">Commander</button>
-            </article>
-            <article class="product-item">
-                <img src="../images/logo.png" alt="">
-                <h2>Product_2</h2>
-                <p>Description_Product_2</p>
-                <p>Prix: .... €</p>
-                <button class="contact-button"  onclick="window.location.href='mailto:commande@votreboutique.com'">Commander</button>
-            </article>
-            <article class="product-item">
-                <img src="../images/logo.png" alt="">
-                <h2>Product_3</h2>
-                <p>Description_Product_3</p>
-                <p>Prix: .... €</p>
-                <button class="contact-button"  onclick="window.location.href='mailto:commande@votreboutique.com'">Commander</button>
-            </article>
-            <article class="product-item">
-                <img src="../images/logo.png" alt="">
-                <h2>Product_4</h2>
-                <p>Description_Product_4</p>
-                <p>Prix: .... €</p>
-                <button class="contact-button"  onclick="window.location.href='mailto:commande@votreboutique.com'">Commander</button>
-            </article>
-
-        </section>
+    <body>
+        <div class="container">
+          <h1>Contact Us</h1>
+          <form action="submit.php" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="nom" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </body>
 
 
 </body>
