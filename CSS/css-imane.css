@@ -400,3 +400,13 @@ footer li{
     height: auto; /* Hauteur automatique pour conserver les proportions de l'image */
     /* Autres styles selon vos besoins */
 }
+
+P {
+    margin: 0;
+    padding: 20px; /* Ajoutez une marge supérieure pour l'espace */
+    text-align: center;
+    width: 100%;
+    color: black; /* Couleur du texte en noir */
+    font-weight: bold; /* Texte en gras */
+   
+}
