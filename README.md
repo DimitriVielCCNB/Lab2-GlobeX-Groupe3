@@ -4,10 +4,6 @@ Le projet consiste à développer le site web pour l'entreprise fictive "Globex 
 
  => Ces éléments forment une base pour la création de site web qui répond aux besoins et aux spécifications du client fictif, Globex Corporation ;
 
-- Consommateurs & Public Cible : ...........
-
-- Contenu : .............., 
-
 - Logo, type Texte et Images : Pas spécifiés, 
 
 - Mots-Clés pour les Moteurs de Recherche : Pas spécifiés, 
