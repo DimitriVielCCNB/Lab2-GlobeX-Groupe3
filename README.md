@@ -2,17 +2,7 @@ Objectifs du Site :
 Le projet consiste à développer le site web pour l'entreprise fictive "Globex Corporation", dont le but principal est de promouvoir et vendre une vaste gamme de produits ;
 
 
- => Ces éléments forment une base pour la création de site web qui répond aux besoins et aux spécifications du client fictif, Globex Corporation ;
-
-- Logo, type Texte et Images : Pas spécifiés, 
-
-- Mots-Clés pour les Moteurs de Recherche : Pas spécifiés, 
-
-- Style Graphique (Couleurs/Motifs.. ) : Pas spécifiés, 
-
-- Autres Détails : Pas spécifiés, 
-
-- Langues : Pas spécifiés,  (Toutes les langues).
+Ces éléments forment une base pour la création de site web qui répond aux besoins et aux spécifications du client fictif, Globex Corporation ;
 
 => Structure du Site (Pages) : ;
                 ACCUEIL : ../html/home.html
@@ -73,7 +63,15 @@ Le projet consiste à développer le site web pour l'entreprise fictive "Globex 
 
 Interaction avec les Clients : Faciliter l'interaction avec les clients par le biais d'appels, d'emails, de formulaires de contact, et d'adhésion à une liste de diffusion.
 
-Caractéristiques Techniques : ....
+- Logo, type Texte et Images : Pas spécifiés, 
+
+- Mots-Clés pour les Moteurs de Recherche : Pas spécifiés, 
+
+- Style Graphique (Couleurs/Motifs.. ) : Pas spécifiés, 
+
+- Autres Détails : Pas spécifiés, 
+
+- Langues : Pas spécifiés,  (Toutes les langues).
 
 Adaptabilité : Le site doit être consultable sur n'importe quel appareil.
 
