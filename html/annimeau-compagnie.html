@@ -27,6 +27,17 @@
         <li><a class="about" href="#">About</a></li>
         <li><a class="contact" href="#">Contact</a></li>
     </ul>
+    <div id="language-selector">
+        <form action="" method="get">
+            <select name="lang" onchange="changeLanguage(this.value)">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="es">Español</option>
+                <option value="de">Deutsch</option>
+                <!-- Ajouter plus de langues ici -->
+            </select>
+        </form>
+    </div>
 </nav>
 
 <aside>
@@ -69,40 +80,38 @@
 <main>
 
         <section class="section">
-            <h1>Liste Products</h1>
+            <h1>Annimaux Doméstiques</h1>
             <article class="product-item">
-                <img src="../images/logo.png" alt="">
-                <h2>Product_1</h2>
-                <p>Description_Product_1</p>
-                <p>Prix: .... €</p>
+                <img src="../images/chat.png" alt="">
+                <h2>Chat Tabby Orange Paresseux</h2>
+                <p>Rencontrez notre chat tabby orange éclatant</p>
+                <p>Prix: 499.99$</p>
                 <button class="contact-button"  onclick="window.location.href='mailto:commande@votreboutique.com'">Commander</button>
             </article>
             <article class="product-item">
-                <img src="../images/logo.png" alt="">
-                <h2>Product_2</h2>
-                <p>Description_Product_2</p>
-                <p>Prix: .... €</p>
+                <img src="../images/chien.png" alt="">
+                <h2>Golden Retriever Joyeux</h2>
+                <p>Craquez pour ce magnifique golden retriever.</p>
+                <p>Prix: 559.99$</p>
                 <button class="contact-button"  onclick="window.location.href='mailto:commande@votreboutique.com'">Commander</button>
             </article>
             <article class="product-item">
-                <img src="../images/logo.png" alt="">
-                <h2>Product_3</h2>
-                <p>Description_Product_3</p>
-                <p>Prix: .... €</p>
+                <img src="../images/fish.png" alt="">
+                <h2>Betta Fish Élégant</h2>
+                <p>Découvrez la beauté tranquille de notre betta fish.</p>
+                <p>Prix: 699.99$</p>
                 <button class="contact-button"  onclick="window.location.href='mailto:commande@votreboutique.com'">Commander</button>
             </article>
             <article class="product-item">
-                <img src="../images/logo.png" alt="">
-                <h2>Product_4</h2>
-                <p>Description_Product_4</p>
-                <p>Prix: .... €</p>
+                <img src="../images/perruche.png" alt="">
+                <h2>Perruche Vivace</h2>
+                <p>Égayez votre quotidien avec notre perruche aux plumes bleues et jaunes.</p>
+                <p>Prix: 200.99$</p>
                 <button class="contact-button"  onclick="window.location.href='mailto:commande@votreboutique.com'">Commander</button>
             </article>
 
         </section>
 
-
-</body>
 
         
 </main>

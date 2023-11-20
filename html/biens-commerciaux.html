@@ -27,6 +27,17 @@
         <li><a class="about" href="#">About</a></li>
         <li><a class="contact" href="#">Contact</a></li>
     </ul>
+    <div id="language-selector">
+        <form action="" method="get">
+            <select name="lang" onchange="changeLanguage(this.value)">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="es">Español</option>
+                <option value="de">Deutsch</option>
+                <!-- Ajouter plus de langues ici -->
+            </select>
+        </form>
+    </div>
 </nav>
 
 <aside>
@@ -80,21 +91,21 @@
             <article class="product-item">
                 <img src="../images/T-shirts.PNG" alt="">
                 <h2>T-Shirts</h2>
-                <p>The Simpsons T-Shirts – Homer in asterix and obelix version Classic T-Shirt</p>
+                <p>The Simpsons T-Shirts - Homer in asterix and obelix version Classic T-Shirt</p>
                 <p>Prix: 24.90 €</p>
                 <button class="contact-button"  onclick="window.location.href='mailto:commande@votreboutique.com'">Commander</button>
             </article>
             <article class="product-item">
                 <img src="../images/socks.PNG" alt="">
                 <h2>Socks</h2>
-                <p>The Simpsons Socks – The Simpsons Homer Bush Crew Socks HT0508</p>
+                <p>The Simpsons Socks - The Simpsons Homer Bush Crew Socks HT0508</p>
                 <p>Prix: 20.50 €</p>
                 <button class="contact-button"  onclick="window.location.href='mailto:commande@votreboutique.com'">Commander</button>
             </article>
             <article class="product-item">
                 <img src="../images/Cases.PNG" alt="">
                 <h2>Cases</h2>
-                <p>The Simpsons Cases – The Simpsons Phone Case Back Cover Smartphone Protective Luxury Ultra Shell TPU Unisex AL0508</p>
+                <p>The Simpsons Cases - The Simpsons Phone Case Back Cover Smartphone Protective Luxury Ultra Shell TPU Unisex AL0508</p>
                 <p>Prix: 15.80 €</p>
                 <button class="contact-button"  onclick="window.location.href='mailto:commande@votreboutique.com'">Commander</button>
             </article>
@@ -102,7 +113,6 @@
         </section>
 
 
-</body>
 
         
 </main>

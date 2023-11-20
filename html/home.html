@@ -26,14 +26,26 @@
         <a href="..\html\home.html">
             <img src="..\images\logo.png" alt="Logo" id="logo" width="150" height="150">
         </a>
+       
     </header>
     <nav>
-        
+       
         <ul class="menu">
             <li><a class="home" href="..\html\home.html">Home</a></li>
             <li><a class="about" href="#">About</a></li>
             <li><a class="contact" href="#">Contact</a></li>
         </ul>
+        <div id="language-selector">
+            <form action="" method="get">
+                <select name="lang" onchange="changeLanguage(this.value)">
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="de">Deutsch</option>
+                    <!-- Ajouter plus de langues ici -->
+                </select>
+            </form>
+        </div>
     </nav>
     <aside>
         <h2>MENU GLOBEX - THE SIMPSONS</h2>
