@@ -225,6 +225,8 @@ footer {
 
 .contact-button:hover {
     background-color: rgb(241, 235, 234);
+    color: #333333;
+    transition: 1.5s;
 }
 
 
