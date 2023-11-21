@@ -494,3 +494,101 @@ footer li{
         width: 90%; 
     }
 }
+
+/****-------------------------Contact US-------*/
+.contactus{
+    background-color: #333333;
+    height: 660px;
+}
+.contactglobex{
+ 
+   padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacter{
+    display: flex;
+    flex-direction: column;
+   width: 70%;
+    color: #ffffff;
+    padding-top: 100px;
+    font-size: larger;
+}
+.formulaire{
+    background-color: #333333;
+    border: none;
+    color: white;
+    padding: 20px 10px;
+    outline: none;
+border-bottom: solid 0.5px grey;
+}
+textarea{
+    height: 100px;
+}
+.boutton{
+    background-color: #db7734;
+    color: white;
+    border: none;
+    padding: 8px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+    width: fit-content;
+   
+}
+.boutton a {
+    text-decoration: none;
+    color: white;
+}
+.boutton:hover{
+    background-color: red;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+ 
+strong{
+    color: #db7734;
+}
+/****-----------------------------mailling---------------------------*/
+.mailling img{
+  width: 400px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+ 
+}
+.mailling{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #db7734;
+ }
+ .abonnervous{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 5px;
+ }
+ .abonnervous :nth-child(3){
+    color: #db7916;
+    font-size: larger;
+    font-weight: bolder;
+ }
+ .boutton {
+    margin-bottom: 20px;
+ }
+ .info {
+       background-color: #f7cdb2;
+ }
+ .abonnervous input{
+    border-radius: 30px;
+    width: fit-content;
+ }
+/*********************footer icon**************/
+footer li :hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
